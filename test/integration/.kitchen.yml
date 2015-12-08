@@ -43,3 +43,6 @@ suites:
     run_list:
       - recipe[os_prepare]
     attributes:
+      postgresql:
+        password:
+          postgres: md506be11be01439cb4abd537e454df34ea # 'inspec'
